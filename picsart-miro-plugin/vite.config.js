@@ -19,6 +19,8 @@ const allHtmlEntries = fs
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  // GitHub Pages serves the app under /<repo>/; set BASE_PATH there.
+  base: process.env.BASE_PATH || '/',
   build: {
     rollupOptions: {
       input: allHtmlEntries,

@@ -9,6 +9,9 @@
 
 ### How to start locally
 
+Full walkthrough (Miro app registration, API key, hosting): see [SETUP.md](./SETUP.md).
+
+
 - Run `npm i` to install dependencies.
 - Run `npm start` to start developing. \
   Your URL should be similar to this example:

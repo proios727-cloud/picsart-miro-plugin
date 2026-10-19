@@ -46,8 +46,3 @@ npm run serve        # preview dist/ on :3000
 ```
 
 Host `dist/` on any static HTTPS host, then change the **App URL** in Miro to point at it.
-
-## Known issues
-
-- `npm audit` reports 3 findings that affect only the dev server (Vite 3 / esbuild).
-  Fixing them means upgrading to Vite 5+. The production bundle has no audit findings.

@@ -46,3 +46,11 @@ npm run serve        # preview dist/ on :3000
 ```
 
 Host `dist/` on any static HTTPS host, then change the **App URL** in Miro to point at it.
+
+### GitHub Pages (this fork)
+
+`.github/workflows/pages.yaml` builds with `BASE_PATH=/<repo>/` and deploys on every push to `main`.
+
+1. One-time: **Settings → Pages → Build and deployment → Source: GitHub Actions**.
+2. Run the workflow (push to `main` or **Actions → Deploy to GitHub Pages → Run workflow**).
+3. In Miro, set **App URL** to `https://proios727-cloud.github.io/picsart-miro-plugin/`.
